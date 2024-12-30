@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>TecnologicaWeb</title>
+
+    <style>
+        body {
+            font-family: "Lucida Console", "Courier New", monospace;
+            background: linear-gradient(to right, rgb(59, 59, 238), rgb(240, 133, 147));
+            padding: 0;
+            margin: 0;
+        }
+        header {
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #333;
+        }
+        li {
+            float: left;
+        }
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        li a:hover:not(.active) {
+            background-color: #f16767;
+        }
+        .active {
+            background-color: #04AA6D;
+        }
+        h1 {
+            background-color: black;
+            padding: 10px;
+            margin: 0;
+            color: #92a4ff;
+        }
+        div.gallery {
+            margin: 5px;
+            border: 1px solid #ccc;
+            float: left;
+            width: 33vw;
+        }
+        div.gallery:hover {
+            border: 1px solid #777;
+        }
+        div.gallery img {
+            width: 100%;
+            height: auto;
+        }
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+        .centrado {
+            display: flex;
+            justify-content: center;
+        }
+        .footer {
+            background-color: #333;
+            color: #FFF;
+            padding: 10px;
+            text-align: center;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>TecnologicaWeb</h1>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="preferencias.html">Preferencias</a></li>
+            <li><a class="active" href="audiovisuales.html">Audiovisuales</a></li>
+            <li><a href="contacto.html">Contacto</a></li>
+
+        </ul>
+    </header>
+    <h2 style="margin: 15px;">Tienda de tendencias tecnologicas</h2>
+    <hr>
+    <div class="centrado">
+        <video  src="/assets/video/istockphoto-1556270667-640_adpp_is.mp4" autoplay muted></video><br>
+    </div>
+    <div class="centrado" >
+        <audio src="/assets/audio/architect-tech-corporate-advertising-music-247324.mp3" autoplay controls ></audio><br>
+    </div>
+   
+   
+
+    <section class="centrado">
+        <div class="gallery">
+            <a href="/assets//img/2036.jpg_wh1200.jpg" target="_blank"><img src="assets/img/2036.jpg_wh1200.jpg" alt="tienda" width="500px" height="500px"></a>
+            
+            <div class="desc">Tienda</div>
+        </div>
+        <div class="gallery">
+            <a href="/assets/img/8015.jpg_wh860.jpg" target="_blank"><img src="assets/img/8015.jpg_wh860.jpg" alt="vision" width="500px" height="500px"></a>
+            <div class="desc">vision</div>
+        </div>
+        <div class="gallery">
+           <a href="/assets/img/istockphoto-1979289147-2048x2048.jpg" target="_blank"> <img src="assets/img/istockphoto-1979289147-2048x2048.jpg" alt="mision" width="500px" height="500px"></a>
+            <div class="desc">Mision</div>
+        </div>
+    </section>
+    
+  
+  
+
+    <article>
+        <h3 style="margin: 15px;">Esta tienda en linea te ofrece muchas alternativas tecnologicas para el profesional </h3>
+    </article>
+
+    <footer class="footer">
+        <p>Derechos Reservados &copy; 2024</p>
+    </footer>
+    
+</body>
+</html>
